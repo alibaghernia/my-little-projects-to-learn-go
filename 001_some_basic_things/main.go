@@ -43,4 +43,8 @@ func main() {
 
 	fmt.Printf("PI is %v, CONST_NAME is %v \n", PI, CONST_NAME)
 
+	// ---------------------------------------------
+	// Printf
+	var falseBool bool
+	fmt.Printf("type of falseBool is %T (%#v) \n", falseBool, falseBool)
 }
