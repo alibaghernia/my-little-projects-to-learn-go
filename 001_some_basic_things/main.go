@@ -37,4 +37,10 @@ func main() {
 		" v3 is %s \n",
 		v1, v2, v3)
 
+	// Constant
+	const PI = 3.14
+	const CONST_NAME string = "a string..."
+
+	fmt.Printf("PI is %v, CONST_NAME is %v \n", PI, CONST_NAME)
+
 }
